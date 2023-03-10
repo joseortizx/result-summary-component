@@ -88,7 +88,7 @@ h6 {
 .card__section1 {
   background-image: linear-gradient(var(--Slate-blueBG), var(--Royal-blueBG));
   color: var(--White);
-  height: 41%;
+  height: 19rem;
   border-radius: 0 0 2rem 2rem;
 }
 .card__section1--title {
