@@ -210,7 +210,7 @@ h6 {
   .card__section2 {
     justify-content: center;
     align-content: center;
-    margin: 0 1rem;
+    margin: 0 0 0 1.5rem;
     width: 43%;
   }
   .card__section1--circleNumber {
