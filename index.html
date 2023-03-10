@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- links -->
+    <link rel="stylesheet" href="style/index.css" />
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <!-- component structure -->
+    <main>
+      <section>
+        <article class="card">
+          <!-- seccion morada -->
+          <div class="card__section1">
+            <h2 class="card__section1--title">Your Result</h2>
+            <div class="card__section1--circleNumber">
+              <p class="card__section1--circleNumber-result">76</p>
+              <p class="card__section1--circleNumber-resultOf">of 100</p>
+            </div>
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+          <!-- seccion blanca -->
+          <div class="card__section2">
+            <div>
+              <h2 class="card__section2--title">Summary</h2>
+              <div class="card__section2--reaction containerFlex">
+                <!-- divisor 1 -->
+                <div>
+                  <picture
+                    ><img src="icon-reaction.svg" alt="icon reaction"
+                  /></picture>
+                  <p>Reaction</p>
+                </div>
+                <!-- divisor 2 -->
+                <div>
+                  <p><span>80</span> / 100</p>
+                </div>
+              </div>
+
+              <div class="card__section2--memory containerFlex">
+                <!-- divisor 1 -->
+                <div>
+                  <picture
+                    ><img src="icon-memory.svg" alt="icon memory"
+                  /></picture>
+                  <p>Memory</p>
+                </div>
+                <!-- divisor 2 -->
+                <div>
+                  <p><span>92</span> / 100</p>
+                </div>
+              </div>
+
+              <div class="card__section2--verbal containerFlex">
+                <!-- divisor 1 -->
+                <div>
+                  <picture
+                    ><img src="icon-verbal.svg" alt="icon verbal"
+                  /></picture>
+                  <p>Verbal</p>
+                </div>
+                <!-- divisor 2 -->
+                <div>
+                  <p><span>61</span> / 100</p>
+                </div>
+              </div>
+
+              <div class="card__section2--visual containerFlex">
+                <!-- divisor 1 -->
+                <div>
+                  <picture
+                    ><img src="icon-visual.svg" alt="icon visual"
+                  /></picture>
+                  <p>Visual</p>
+                </div>
+                <!-- divisor 2 -->
+                <div>
+                  <p><span>71</span> / 100</p>
+                </div>
+              </div>
+              <button>Continue</button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
