@@ -21,80 +21,91 @@
       <section>
         <article class="card">
           <!-- seccion morada -->
-          <div class="card__section1">
-            <h2 class="card__section1--title">Your Result</h2>
-            <div class="card__section1--circleNumber">
-              <p class="card__section1--circleNumber-result">76</p>
-              <p class="card__section1--circleNumber-resultOf">of 100</p>
+          <div class="card__section1 card-item">
+            <h2 class="card__section1--title card-item">Your Result</h2>
+            <div class="card__section1--circleNumber card-item">
+              <p class="card__section1--circleNumber-result card-item">76</p>
+              <p class="card__section1--circleNumber-resultOf card-item">
+                of 100
+              </p>
             </div>
-            <h2>Great</h2>
-            <p>
+            <h2 class="card__section1--title2">Great</h2>
+            <p class="card__section1--paragraph">
               You scored higher than 65% of the people who have taken these
               tests.
             </p>
           </div>
           <!-- seccion blanca -->
           <div class="card__section2">
+            <h2 class="card__section2--title">Summary</h2>
+            <!-- seccion reaccion -->
             <div>
-              <h2 class="card__section2--title">Summary</h2>
-              <div class="card__section2--reaction containerFlex">
-                <!-- divisor 1 -->
-                <div>
-                  <picture
+              <div
+                class="card__section2--reaction card__section--item containerFlex"
+              >
+                <div class="containerFlex">
+                  <picture class="separacion"
                     ><img src="icon-reaction.svg" alt="icon reaction"
                   /></picture>
                   <p>Reaction</p>
                 </div>
-                <!-- divisor 2 -->
                 <div>
-                  <p><span>80</span> / 100</p>
+                  <p>80 <span class="general">/ 100</span></p>
                 </div>
               </div>
-
-              <div class="card__section2--memory containerFlex">
-                <!-- divisor 1 -->
-                <div>
-                  <picture
-                    ><img src="icon-memory.svg" alt="icon memory"
+            </div>
+            <!-- seccion memory -->
+            <div>
+              <div
+                class="card__section2--memory card__section--item containerFlex"
+              >
+                <div class="containerFlex">
+                  <picture class="separacion"
+                    ><img src="icon-memory.svg" alt="icon reaction"
                   /></picture>
                   <p>Memory</p>
                 </div>
-                <!-- divisor 2 -->
                 <div>
-                  <p><span>92</span> / 100</p>
+                  <p>92 <span class="general">/ 100</span></p>
                 </div>
               </div>
-
-              <div class="card__section2--verbal containerFlex">
-                <!-- divisor 1 -->
-                <div>
-                  <picture
-                    ><img src="icon-verbal.svg" alt="icon verbal"
+            </div>
+            <!-- seccion verbal -->
+            <div>
+              <div
+                class="card__section2--verbal card__section--item containerFlex"
+              >
+                <div class="containerFlex">
+                  <picture class="separacion"
+                    ><img src="icon-verbal.svg" alt="icon reaction"
                   /></picture>
                   <p>Verbal</p>
                 </div>
-                <!-- divisor 2 -->
                 <div>
-                  <p><span>61</span> / 100</p>
+                  <p>61 <span class="general">/ 100</span></p>
                 </div>
               </div>
-
-              <div class="card__section2--visual containerFlex">
-                <!-- divisor 1 -->
-                <div>
-                  <picture
-                    ><img src="icon-visual.svg" alt="icon visual"
+            </div>
+            <!-- seccion visual -->
+            <div>
+              <div
+                class="card__section2--visual card__section--item containerFlex"
+              >
+                <div class="containerFlex">
+                  <picture class="separacion"
+                    ><img src="icon-visual.svg" alt="icon reaction"
                   /></picture>
                   <p>Visual</p>
                 </div>
-                <!-- divisor 2 -->
                 <div>
-                  <p><span>71</span> / 100</p>
+                  <p>72 <span class="general">/ 100</span></p>
                 </div>
               </div>
-              <button>Continue</button>
             </div>
+            <button class="section2__btn">Continue</button>
           </div>
+
+          <!-- NO DARLE BOLA A LO DE ABAJO -->
         </article>
       </section>
     </main>
