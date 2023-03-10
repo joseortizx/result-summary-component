@@ -42,3 +42,23 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* custom properties */
+:root {
+  /* Primary */
+  --Reaction-red: hsl(0, 100%, 67%);
+  --Memory-yellow: hsl(39, 100%, 56%);
+  --Verbal-green: hsl(166, 100%, 37%);
+  --Visual-blue: hsl(234, 85%, 45%);
+
+  /* Gradients */
+  --Slate-blueBG: hsl(252, 100%, 67%);
+  --Royal-blueBG: hsl(241, 81%, 54%);
+  --Violet-blueCIR: hsla(256, 72%, 46%, 1);
+  --Persian-blueCIR: hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
