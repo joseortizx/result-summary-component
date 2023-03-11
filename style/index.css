@@ -192,6 +192,11 @@ h6 {
 .general {
   color: hsla(224, 30%, 27%, 0.5);
 }
+/* hover effects */
+.section2__btn:hover {
+  cursor: pointer;
+  background-image: linear-gradient(var(--Slate-blueBG), var(--Royal-blueBG));
+}
 /* media query */
 @media screen and (min-width: 750px) {
   .card {
