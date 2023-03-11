@@ -103,12 +103,12 @@ h6 {
     var(--Persian-blueCIR)
   );
   border-radius: 50%;
-  width: 7rem;
-  height: 7rem;
+  width: 8.5rem;
+  height: 8.5rem;
   justify-content: center;
 }
 .card__section1--circleNumber-result {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 .card__section1--circleNumber-resultOf {
